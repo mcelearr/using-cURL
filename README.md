@@ -67,9 +67,9 @@ curl -i -X POST http://www.posttestserver.com/post.php?dir=myDir -d '{"value":"m
 ```
 Now you content is saved in the folder. To access it use the link provided in the response message
 
-## TUTORIAL - making more complicated requests
+## TUTORIAL - hack facebook with curl
 
-As well as simple requests, more complicated API requests can also be made using cURL. Many API requests require a private access and/or user cookie data. To show you an example of this from a website we are all familiar with, we're going to update our facebook status from the command line using cURL with help from the Chrome Inspector.
+Lets update our facebook page using cURL with help from the Chrome Inspector.
 
 * Open up facebook and enter a new status but don't press 'post'. Open up the chrome inspector and go to the 'Network' tab. Network keeps a log of all the calls to other files; XHR (the one we're interested in) but also JS and CSS files.
 
